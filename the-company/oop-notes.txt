@@ -1,0 +1,33 @@
+Actions Folder = all your action files; id(isset) files;
+
+Assets Folder  = all CSS/images/javascipt files;
+
+Classes Folder = all class files; medthods;
+
+Views Folder    = all view/display files;
+
+-----------------------------------------------------------
+
+include       = include the files without checking if ther are errors.
+
+include_ones  = include the file one only; if it is already included; does not check 
+
+require       = include the files and check if there are errors.
+
+require_ones  = include the file once only and check if there are errors; cancel if if is
+already included.
+
+----------------------------------------------------------------------------------------------
+
+4 MAJOR FUNCTIOND IN SQL
+
+    C = CREATE         - INSERT INTO - RESISTER
+    R = RETRIEVE/READ  - SELECT      - LOGIN, DASHBOARD, DISPLAY OF PROFILE
+    U = UPDATE         -  - EDIT ACCOUNT, EDIT PROFILE
+    D = DELETE         -  - DELETE ACCOUNT, DELETE COMMENT
+---------------------------------------------------------------------
+
+FLOW APP:
+
+view -> action -> class -> database
+
